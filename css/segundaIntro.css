@@ -137,6 +137,12 @@ nav{
 }
 
 
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 input{
     padding: 10px;
     border: 2px solid #fff;
