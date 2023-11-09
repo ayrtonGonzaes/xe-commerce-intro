@@ -9,7 +9,7 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- -->
-    <title>Segunda Intro</title> 
+    <title>Intro</title> 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -77,6 +77,13 @@
             </div>
 
         </div>
+
+        <form>
+            <label for="inputTexto">Ingresa texto:</label>
+            <input type="text" id="inputTexto" oninput="validarTexto()">
+            <p id="mensajeError" class="error-message"></p>
+        </form>
+
     </main>
 
     <footer id="footer">
